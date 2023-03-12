@@ -41,6 +41,10 @@ body {
     margin: auto;
     cursor: pointer;
 }
+.bayan:hover {
+    color:rgb(247, 247, 48);
+    transition: all 3s;
+}
 
 label {
     cursor: pointer;
@@ -60,9 +64,11 @@ h1 {
 .plus-close {
     width: 20px;
     height: 20px;
+    transition: all 0.5s ease-out;
 }
 .plus {
     transform: translate(95%, -90%);
+    transition: all 0.5s ease-out;
 }
 
 
@@ -89,9 +95,11 @@ h1 {
     display: block;
 }
 
+
 .item-input:hover ~ label > div.plus > img {
     transform: rotate(45deg); 
 }
+
 
 
 .mem-contr {
