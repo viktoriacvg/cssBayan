@@ -69,10 +69,8 @@ h1 {
 .plus {
     transform: translate(95%, -90%);
     transition: all 0.5s ease-out;
+    overflow: hidden;
 }
-
-
-
 
 
 .item-input {
@@ -84,15 +82,21 @@ h1 {
     color: rgb(156, 161, 161);
     font-weight: bold;
 }
-.item-input:checked ~ label > div.mem-contr {
-    display: block;
+.item-input:checked + label > div.mem-contr {
+    width: 70%;
+    height: 100%;
+    transition: all 3s;
+    visibility: visible;
 }
 .item-input:checked ~ label > div.plus > img {
     transform: rotate(45deg); 
 }
 
-.item-input:hover ~ label > div.mem-contr {
-    display: block;
+.item-input:hover + label > div.mem-contr {
+    width: 70%;
+    height: 100%;
+    transition: all 3s;
+    visibility: visible;
 }
 
 
@@ -100,15 +104,13 @@ h1 {
     transform: rotate(45deg); 
 }
 
-
-
 .mem-contr {
-    width: 60%;
-    height: 100%;
+    width: 0;
+    height: 0;
     margin: auto;
     border: 3px solid rgb(167, 154, 165);
     background-color: rgb(194, 192, 192);
-    display: none;
+    visibility: hidden;
 }
 .img1 {
     background: url("assets/img/1.png") no-repeat center;
