@@ -139,4 +139,46 @@ h1 {
 }
 
 
+@media screen and (max-width: 320px) {
+    .bayan {
+        width: 90%;
+    }
+    .item-input:checked + label > div.mem-contr {
+        width: 90%;
+        height: 100%;
+    }
+    
+    .item-input:hover + label > div.mem-contr {
+        width: 90%;
+        height: 100%;
+    }
+
+    .img1 {
+        background-size: 100% 200px;
+        height: 200px;
+    }
+    .img2 {
+        background-size: 100% 200px;
+        height: 200px;
+    }
+    .img3 {
+        background-size: 100% 200px;
+        height: 200px;
+    }
+    .img4 {
+        background-size: 100% 200px;
+        height: 200px;
+    }
+    .img5 {
+        background-size: 100% 200px;
+        height: 200px;
+    }
+
+    @media (hover: hover) {
+        .bayan:hover {
+            color:rgb(247, 48, 201);
+            transition: all 3s;
+        }
+}
+}
 
