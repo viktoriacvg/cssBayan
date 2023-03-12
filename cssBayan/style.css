@@ -138,6 +138,48 @@ h1 {
     height: 300px;
 }
 
+@media screen and (max-width: 820px) {
+    .bayan {
+        width: 85%;
+    }
+    .item-input:checked + label > div.mem-contr {
+        width: 60%;
+        height: 100%;
+    }
+    
+    .item-input:hover + label > div.mem-contr {
+        width: 60%;
+        height: 100%;
+    }
+
+    .img1 {
+        background-size: 100% 250px;
+        height: 250px;
+    }
+    .img2 {
+        background-size: 100% 250px;
+        height: 250px;
+    }
+    .img3 {
+        background-size: 100% 250px;
+        height: 250px;
+    }
+    .img4 {
+        background-size: 100% 250px;
+        height: 250px;
+    }
+    .img5 {
+        background-size: 100% 250px;
+        height: 250px;
+    }
+
+    @media (hover: hover) {
+        .bayan:hover {
+            color:rgb(16, 181, 210);
+            transition: all 3s;
+        }
+}
+}
 
 @media screen and (max-width: 320px) {
     .bayan {
@@ -181,4 +223,6 @@ h1 {
         }
 }
 }
+
+
 
